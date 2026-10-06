@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+venv/
+__pycache__/
+*.pyc
+reports/
+db/
+*.sql
+.git
+.gitignore
+.DS_Store
+README*.md
+docker-compose.yml

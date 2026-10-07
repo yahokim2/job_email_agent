@@ -39,7 +39,7 @@ GMAIL_APP_PASSWORD = os.environ["GMAIL_APP_PASSWORD"]
 # 콤마로 여러 구인사이트 발신 도메인을 나열 가능 (예: "wantedlab.com,jobkorea.co.kr")
 SENDER_FILTERS = [s.strip() for s in os.environ.get("SENDER_FILTER", "wantedlab.com").split(",") if s.strip()]
 # 제목에 이 이름이 들어있는 메일만 "개인 맞춤 추천" 메일로 간주 (여러 프로젝트가 나열된 형태)
-RECIPIENT_NAME = os.environ.get("RECIPIENT_NAME", "김영호")
+RECIPIENT_NAME = os.environ.get("RECIPIENT_NAME", "홍길동")
 # 안전장치: 실수로 오래된 메일이 대량 안읽음 처리돼도 최근 N일 이내 것만 처리
 LOOKBACK_DAYS = int(os.environ.get("LOOKBACK_DAYS", "14"))
 
